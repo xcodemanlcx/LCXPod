@@ -1,0 +1,6 @@
+framework module LCXPod {
+  umbrella header "LCXPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

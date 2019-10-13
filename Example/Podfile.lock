@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LCXPod (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LCXPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LCXPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LCXPod: 08328e8d770dc1e16b428eaa1ce3d0f8554a1648
+
+PODFILE CHECKSUM: 182c666cbc30a93aed11251b0d00370c609d9dde
+
+COCOAPODS: 1.8.3
